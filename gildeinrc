@@ -1,0 +1,39 @@
+# category name: keywords spearatedby commas
+[categories]
+salary : my company
+food : rewe, aldi
+travel : db, bahn
+rent : mitte
+house hold : stadtwerke
+health : klinikum
+max : max
+somecategory : someone
+
+[payees]
+mycompany = mycompany
+someone = someone
+
+[general]
+defaultpayee = Oz
+defaultpaymode = 6
+format = DeutscheBank
+
+[Paymodes]
+none = 0
+credit card = 1
+check = 2
+cash = 3
+transfer = 4
+internal transfer = 5
+debit card = 6
+standing order = 7
+electronic payment = 8
+deposit = 9
+fi fee = 10
+
+[DeutscheBank]
+desccolumn = 2
+datecolumn = 1
+incomecolumn = 4
+outcomecolumn = 3
+
